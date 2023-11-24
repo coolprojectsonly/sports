@@ -1,0 +1,36 @@
+table {
+  border: 1px solid blue;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.inputContainer {
+  width: 100vw;
+  height: 10vh;
+}
+
+input {
+  margin-left: 1100px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+th,
+td {
+  border: 1px solid blue;
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+  background-color: salmon;
+}
+
+.tableContainer {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
